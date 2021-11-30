@@ -1,0 +1,21 @@
+	\chapter*{Análise dos códigos}
+\addcontentsline{toc}{chapter}{Análise dos códigos}
+
+As análises a seguir foram realizadas em um ambiente com uma distribuição Linux baseado em Debian, o Ubuntu e pode ser realizada em qualquer ambiente Linux sem dificuldades com algumas adaptações. A instalação do CCL é simples, consulte as instruções da  \textit{\href{https://ccl.readthedocs.io/en/latest/source/installation.html}{\color{blue}instalação}} do CCL, mas antes instale as dependências, os pacotes \textit{SWIG} e \textit{cmake}, utilizando o gerenciador de pacotes do python. Já a instalação da biblioteca da NumCosmo, consulte as instruções da \textit{\href{https://numcosmo.github.io/download/}{\color{blue}instalação}} da NumCosmo, a orientação de instalação depende da distribuição Linux utilizada.
+
+\section*{CCL - Core Cosmology Library}
+O \href{https://ccl.readthedocs.io/en/latest/?badge=latest#core-cosmology-library}{\color{blue}CCL} ( Core Cosmology Library) é uma biblioteca padronizada de cosmologia que fornece rotinas para computar observáveis cosmológicos básico com alta precisão e foi verificada com um amplo conjunto de testes de validação (\textit{brenchmarks}). As previsões são fornecidas para muitas grandezas cosmológicas, incluindo distâncias, espectro de potência angular, funções de correlação e entre outras  \href{https://arxiv.org/abs/1812.05995}{\color{blue}suportadas}. 
+
+O CCL é escrita em C e Python, com os códigos de cálculo numérico escrito em C e a orientação a objeto escrita em Python, possuindo uma API pública em python sem a necessidade da alteração na interface em C, em um pacote python, o \textit{pyccl}, com módulos intuitivos que permitem computar diversas grandezas cosmológicas suportadas, consulte a   \href{https://ccl.readthedocs.io/en/latest/api/modules.html}{\color{blue}documentação} do CCL.
+
+\section*{NumCosmo}
+A \href{https://numcosmo.github.io/about/}{\color{blue}NumCosmo}  é escrita em C, possui orientação a objeto através do framework \textit{GObject} e compatibilidade para linguagens que suportam introspecção Gobject, como Python, Perl e entre outros. 
+
+
+
+
+
+
+
+
+
