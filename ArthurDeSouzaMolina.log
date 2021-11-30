@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.26)  30 NOV 2021 16:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.26)  30 NOV 2021 19:47
 entering extended mode
 **./ArthurDeSouzaMolina.tex
 (ArthurDeSouzaMolina.tex
@@ -1541,7 +1541,14 @@ Package srcltx Info: Expanded filename `Textos/AnalisedeCodigos.tex' to `Textos
 :<+ Textos/AnalisedeCodigos.tex
 (Textos/AnalisedeCodigos.tex [2
 
-] [3
+]
+Overfull \hbox (15.67233pt too wide) in paragraph at lines 27--28
+[][]\OT1/lmr/m/n/12 (-20) Um dos in-te-res-ses deste tra-ba-lho foi uti-li-zar 
+os tes-tes com tracador\OT1/lmr/m/it/12 (-20) NumberCountsTracer\OT1/lmr/m/n/1
+2 (-20) ,
+ []
+
+[3
 
 ])
 :<-
@@ -1578,11 +1585,11 @@ LaTeX Warning: Empty `thebibliography' environment on input line 8.
 
  (ArthurDeSouzaMolina.aux) ) 
 Here is how much of TeX's memory you used:
- 31957 strings out of 478681
- 589712 string characters out of 2846534
- 917227 words of memory out of 3000000
- 49307 multiletter control sequences out of 15000+600000
- 465472 words of font info for 133 fonts, out of 8000000 for 9000
+ 31950 strings out of 478681
+ 589636 string characters out of 2846534
+ 918227 words of memory out of 3000000
+ 49306 multiletter control sequences out of 15000+600000
+ 465258 words of font info for 131 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  85i,12n,106p,1176b,538s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts
@@ -1595,9 +1602,9 @@ e1/public/lm/lmb10.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type
 public/lm/lmr17.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/lm/lmri10.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/lm/lmri12.pfb>
-Output written on ArthurDeSouzaMolina.pdf (15 pages, 232930 bytes).
+Output written on ArthurDeSouzaMolina.pdf (15 pages, 231630 bytes).
 PDF statistics:
- 207 PDF objects out of 1000 (max. 8388607)
- 42 named destinations out of 1000 (max. 500000)
+ 201 PDF objects out of 1000 (max. 8388607)
+ 40 named destinations out of 1000 (max. 500000)
  34434 words of extra memory for PDF output out of 35830 (max. 10000000)
 

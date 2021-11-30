@@ -3,6 +3,7 @@
 
 As análises a seguir foram realizadas em um ambiente com uma distribuição Linux baseado em Debian, o Ubuntu e pode ser realizada em qualquer ambiente Linux sem dificuldades com algumas adaptações. A instalação do CCL é simples, consulte as instruções da  \textit{\href{https://ccl.readthedocs.io/en/latest/source/installation.html}{\color{blue}instalação}} do CCL, mas antes instale as dependências, os pacotes \textit{SWIG} e \textit{cmake}, utilizando o gerenciador de pacotes do python. Já a instalação da biblioteca da NumCosmo, consulte as instruções da \textit{\href{https://numcosmo.github.io/download/}{\color{blue}instalação}} da NumCosmo, a orientação de instalação depende da distribuição Linux utilizada.
 
+\begin{comment}		%Apresentação das bibliotecas, citar as passagem dos sites.
 \section*{CCL - Core Cosmology Library}
 O \href{https://ccl.readthedocs.io/en/latest/?badge=latest#core-cosmology-library}{\color{blue}CCL} ( Core Cosmology Library) é uma biblioteca padronizada de cosmologia que fornece rotinas para computar observáveis cosmológicos básico com alta precisão e foi verificada com um amplo conjunto de testes de validação (\textit{brenchmarks}). As previsões são fornecidas para muitas grandezas cosmológicas, incluindo distâncias, espectro de potência angular, funções de correlação e entre outras  \href{https://arxiv.org/abs/1812.05995}{\color{blue}suportadas}. 
 
@@ -10,17 +11,22 @@ O CCL é escrita em C e Python, com os códigos de cálculo numérico escrito em
 
 \section*{NumCosmo}
 
-A \href{https://numcosmo.github.io/about/}{\color{blue}NumCosmo}  é escrita em C, possui orientação a objeto através do framework \textit{GObject} e compatibilidade para linguagens que suportam introspecção Gobject, como Python, Perl e entre outros. 
+NumCosmo é uma biblioteca C de software livre cujo objetivo principal é testar modelos cosmológicos usando dados observacionais e fornecer um conjunto de ferramentas para realizar cálculos cosmológicos. A \href{https://numcosmo.github.io/about/}{\color{blue}NumCosmo}  é escrita em C, possui orientação a objeto através do framework \textit{GObject} e\cite{virtualizacao2014} compatibilidade para linguagens que suportam introspecção Gobject, como Python, Perl e entre outros. 
+\end{comment}
 
 \section*{O algoritmo de validação}
 
 Para realizar a comparação entre as observáveis, neste trabalho foi utilizado um dos algoritmos do conjunto de teste de validação do CCL, o algoritmo de verificação dos cálculos de correlações cruzadas escrito em python chamado  \textit{test\_correlation.py}.
 
-Este algoritmo consulta um conjunto de dados de redshift, o espectro de potência angular, contraste de densidade de matéria, multipolos correspondentes ao espectro de potência de entrada, spin e entre outras grandezas cosmológicas para inicializar os traçadores, ou seja, as funções de dois pontos, calculando o valor da função de correlação para as separações angulares fornecidas como entrada e verifica a coerência do resultado comparando  com valor do erro de cálculo estimulado.
+Este algoritmo consulta um conjunto de dados de redshift, o espectro de potência angular, contraste de densidade de matéria, multipolos correspondentes ao espectro de potência de entrada, spin e entre outras grandezas cosmológicas para inicializar os traçadores, ou seja, as funções de dois pontos, calculando o valor da função de correlação para as separações angulares fornecidas como entrada e verifica a coerência do resultado comparando  com o valor do erro de cálculo estimulado.
 
-O algoritmo utiliza a estrutura de validação com módulo \textit{pytest} para realizar 112 testes, utilizando três traçadores:  \textit{NumberCountsTracer}, \textit{WeakLensingTracer} e \textit{CMBLensingTracer}. Os testes foram feitos com os métodos: \textit{fftlog} (Transformações rápidas de Fourier que permite menos custo computacional de processamento do que computar integrações em força bruta), \textit{bessel} (método de cálculo utilizando as funções esféricas de Bessel), já o método \textit{legendre} (Soma em força bruta sobre os polinômios de Legendre) não foi implementado.
+O algoritmo utiliza a estrutura de validação com módulo \textit{pytest} para realizar 112 testes, utilizando três traçadores:  \textit{NumberCountsTracer}, \textit{WeakLensingTracer} e \textit{CMBLensingTracer}. Os testes foram feitos com os métodos: \textit{fftlog} (Transformações rápidas de Fourier que permite menos custo computacional de processamento do que computar integrações de força bruta nos cálculos), \textit{bessel} (método de cálculo utilizando as funções esféricas de Bessel), já o método \textit{legendre} (Soma da força bruta sobre os polinômios de Legendre) não foi implementado.
 
-Um dos interesses deste trabalho foi utilizar os cálculos com o traçador \textit{CMBLensingTracer} e spin-0 afim de comparar os resultados utilizando a NumCosmo, infelizmente, o teste com essas condições não foi implementado, O teste consulta quatro.
+O algoritmo consulta 35 arquivos com extensão \textit{.txt} contendo um conjunto de dados, mas apenas 4 arquivos são utilizados para realizar os cálculos dos observáveis e 31 arquivos são consultados para calcular o erro estimado e validar o calculo realizado. O algoritmo possui um problema relativamente simples de implementação relacionado a declaração do endereço do diretório dos arquivos, onde é necessário uma alteração no código para que o teste encontre os arquivos para a consulta. 
+
+Um dos interesses deste trabalho foi utilizar os testes com traçador\textit{NumberCountsTracer}, ou com apenas mapas com spin-0 utilizando outros traçadores, afim de comparar os resultados do teste com os resultados computados pela NumCosmo utilizando os mesmos conjuntos de dados e verificar a grau de concordância entre as bibliotecas sobre tais resultados, mas infelizmente, o teste com essas condições não foi implementado. A NumCosmo ainda não possui suporte para mapas com spin diferente de zero, portanto, dentre os testes do algoritmo de validação utilizado, apenas os testes com o traçador  \textit{NumberCountsTracer} e mapa com spin-0 nos possibilita efetuar a análise.
+
+Ao adaptar o teste que utiliza o traçador \textit{NumberCountsTracer} e mapa com spin-0 em um \textit{jupyter notebook}, foi possível descartar a dependência da consulta por arquivos, e ...
 
 
 
