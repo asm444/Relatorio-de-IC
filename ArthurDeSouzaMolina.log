@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.26)  2 DEC 2021 11:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.26)  3 DEC 2021 10:22
 entering extended mode
 **./ArthurDeSouzaMolina.tex
 (ArthurDeSouzaMolina.tex
@@ -1542,8 +1542,8 @@ Package srcltx Info: Expanded filename `Textos/AnalisedeCodigos.tex' to `Textos
 (Textos/AnalisedeCodigos.tex [2
 
 ]
-Overfull \hbox (15.67233pt too wide) in paragraph at lines 27--28
-[][]\OT1/lmr/m/n/12 (-20) Um dos in-te-res-ses deste tra-ba-lho foi uti-li-zar 
+Overfull \hbox (18.55067pt too wide) in paragraph at lines 27--28
+[][]\OT1/lmr/m/n/12 (-20) Um dos in-te-res-ses deste tra-ba-lho era uti-li-zar 
 os tes-tes com tracador\OT1/lmr/m/it/12 (-20) NumberCountsTracer\OT1/lmr/m/n/1
 2 (-20) ,
  []
@@ -1586,12 +1586,12 @@ LaTeX Warning: Empty `thebibliography' environment on input line 8.
  (ArthurDeSouzaMolina.aux) ) 
 Here is how much of TeX's memory you used:
  31962 strings out of 478681
- 589770 string characters out of 2846534
+ 589758 string characters out of 2846534
  919227 words of memory out of 3000000
  49306 multiletter control sequences out of 15000+600000
  465860 words of font info for 137 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,12n,106p,1176b,538s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 85i,12n,106p,1276b,538s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts
 /enc/dvips/lm/lm-rm.enc}<C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/public/lm/lmb10.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type
@@ -1602,7 +1602,7 @@ e1/public/lm/lmb10.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type
 public/lm/lmr17.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/lm/lmri10.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/lm/lmri12.pfb>
-Output written on ArthurDeSouzaMolina.pdf (15 pages, 233266 bytes).
+Output written on ArthurDeSouzaMolina.pdf (15 pages, 233410 bytes).
 PDF statistics:
  201 PDF objects out of 1000 (max. 8388607)
  40 named destinations out of 1000 (max. 500000)
