@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.26)  3 DEC 2021 18:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.26)  6 DEC 2021 10:53
 entering extended mode
 **./ArthurDeSouzaMolina.tex
 (ArthurDeSouzaMolina.tex
@@ -1534,38 +1534,31 @@ to `Textos/InstabilidadeGravitacional.tex' on input line 344.
 (Textos/InstabilidadeGravitacional.tex [1
 
 
+] [2
+
 ])
 :<-
 Package srcltx Info: Expanded filename `Textos/AnalisedeCodigos.tex' to `Textos
 /AnalisedeCodigos.tex' on input line 345.
 :<+ Textos/AnalisedeCodigos.tex
-(Textos/AnalisedeCodigos.tex [2
-
-]
-Overfull \hbox (18.55067pt too wide) in paragraph at lines 27--28
-[][]\OT1/lmr/m/n/12 (-20) Um dos in-te-res-ses deste tra-ba-lho era uti-li-zar 
-os tes-tes com tracador\OT1/lmr/m/it/12 (-20) NumberCountsTracer\OT1/lmr/m/n/1
-2 (-20) ,
- []
-
-[3
+(Textos/AnalisedeCodigos.tex [3] [4
 
 ])
 :<-
 Package srcltx Info: Expanded filename `Textos/Resultados.tex' to `Textos/Resul
 tados.tex' on input line 346.
 :<+ Textos/Resultados.tex
-(Textos/Resultados.tex [4])
+(Textos/Resultados.tex [5])
 :<-
 Package srcltx Info: Expanded filename `Textos/Conclusao.tex' to `Textos/Conclu
 sao.tex' on input line 347.
 :<+ Textos/Conclusao.tex
-(Textos/Conclusao.tex [5
+(Textos/Conclusao.tex [6
 
 ])
 :<-
 :<+ ArthurDeSouzaMolina.bbl
-(ArthurDeSouzaMolina.bbl [6
+(ArthurDeSouzaMolina.bbl [7
 
 ]
 bibitemlist
@@ -1574,7 +1567,7 @@ LaTeX Warning: Empty `thebibliography' environment on input line 8.
 
 )
 :<-
-[7
+[8
 
 ]
 \tf@lof=\write5
@@ -1585,26 +1578,36 @@ LaTeX Warning: Empty `thebibliography' environment on input line 8.
 
  (ArthurDeSouzaMolina.aux) ) 
 Here is how much of TeX's memory you used:
- 31958 strings out of 478681
- 589714 string characters out of 2846534
- 919227 words of memory out of 3000000
- 49306 multiletter control sequences out of 15000+600000
- 465606 words of font info for 135 fonts, out of 8000000 for 9000
+ 32009 strings out of 478681
+ 590233 string characters out of 2846534
+ 920612 words of memory out of 3000000
+ 49317 multiletter control sequences out of 15000+600000
+ 475059 words of font info for 155 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,12n,106p,1276b,538s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 85i,13n,106p,1276b,538s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts
-/enc/dvips/lm/lm-rm.enc}<C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/public/lm/lmb10.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/lm/lmbx10.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/lm/lmbx12.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/lm/lmr10.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1
-/public/lm/lmr12.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/lm/lmr17.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/lm/lmri10.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/lm/lmri12.pfb>
-Output written on ArthurDeSouzaMolina.pdf (15 pages, 233889 bytes).
+/enc/dvips/lm/lm-rm.enc}{C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/enc
+/dvips/lm/lm-mathex.enc}{C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/enc
+/dvips/lm/lm-mathit.enc}{C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/enc
+/dvips/lm/lm-mathsy.enc}<C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmr10.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/mathpazo/fplmr.pfb><C:/Users/arthu/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/lm/lmb10.pfb><C:/Users/arthu/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/arthu/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/arthu/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/lm/lmex10.pfb><C:/Users/arthu/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/arthu/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/lm/lmr10.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/lm/lmr12.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/lm/lmr17.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/lm/lmr7.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/lm/lmri10.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/lm/lmri12.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/lm/lmsy10.pfb>
+Output written on ArthurDeSouzaMolina.pdf (16 pages, 288566 bytes).
 PDF statistics:
- 201 PDF objects out of 1000 (max. 8388607)
- 40 named destinations out of 1000 (max. 500000)
- 34434 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 249 PDF objects out of 1000 (max. 8388607)
+ 48 named destinations out of 1000 (max. 500000)
+ 38530 words of extra memory for PDF output out of 42996 (max. 10000000)
 

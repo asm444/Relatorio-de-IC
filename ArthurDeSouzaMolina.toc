@@ -8,11 +8,11 @@
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \contentsline {chapter}{Instabilidade Gravitacional}{2}{chapter*.9}%
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Análise dos códigos}{3}{chapter*.10}%
+\contentsline {chapter}{Análise dos códigos}{4}{chapter*.10}%
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Resultados}{5}{chapter*.12}%
+\contentsline {chapter}{Resultados}{6}{chapter*.12}%
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Conclusão}{6}{chapter*.13}%
+\contentsline {chapter}{Conclusão}{7}{chapter*.13}%
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{7}{section*.16}%
+\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{8}{section*.16}%

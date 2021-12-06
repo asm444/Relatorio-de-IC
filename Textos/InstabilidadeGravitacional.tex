@@ -1,9 +1,55 @@
 	\chapter*{Instabilidade Gravitacional}
 \addcontentsline{toc}{chapter}{Instabilidade Gravitacional}
 
+Quando estudamos uma estrutura de grande escala utilizando as teorias Newtonianas, pressupomos que a estrutura não possui velocidade relativística, a estrutura está em uma região que se expande menos rapidamente em relação as outras regiões, a estrutura esteja em colapso sobre a sua auto-gravidade, ou seja, a instabilidade gravitacional é o mecanismo de maior contribuição para sua evolução e a matéria se comporta como um fluído perfeito.
 
+Os resultados obtidos pela mecânica clássica possuem uma discrepância com um fator de $\frac{v^2}{c^2}$ em relação a mecânica relativística, ao pressupor que a estrutura não possui velocidade relativística, então $\frac{v^2}{c^2} \rightarrow 0$ e a mecânica relativística deve concordar com os resultados obtidos pela mecânica clássica.
 
+\begin{comment} %%%% Fazer uma justificativa a todas as pressuposições feitas
+	O fato que o universo esta se expandindo em todas as direções de acordo com a lei de Hubble-Lemaître, podemos propor que a região estuda está em um processo de colapso
+\end{comment}
+ 
 
+A partir dessas pressuposições, podemos descrever essas estruturas em termos de sua distribuição de energia $\varepsilon(\mathbf{x},t)$, a entropia por unidade de massa $\textbf{S}(\mathbf{x},t)$ e o vetor velocidade $\textbf{V}(\mathbf{x},t)$, ao estabelecer essas quantidades para um volume fixo em uma região, sabemos que a variação da massa deve ser equivalente a variação de sua distribuição de energia em todo o volume nesta região, em outras palavras, 
 
+\begin{equation}\label{eq1}
+	\frac{dM}{dt} = \int_{\Delta V} \frac{\partial \varepsilon(\mathbf{x},t)}{\partial t} dV.
+\end{equation}
 
+A variação da massa também pode ser escrita como a variação do fluxo da distribuição de energia em todo o contorno do volume fixo
+
+\begin{equation}\label{eq2}
+	\frac{dM}{dt} = - \oint \varepsilon(\mathbf{x},t)\mathbf{V} d\sigma = - \int_{\Delta V} \nabla (\varepsilon(\mathbf{x},t)\mathbf{V}) dV.
+\end{equation}
+
+Devido a equivalência de eq. (1) e eq. (2), podemos escrever a seguinte relação consistente
+
+\begin{equation}\label{eq3}
+	\frac{\partial \varepsilon}{\partial t} + \nabla (\varepsilon\mathbf{V}) = 0,
+\end{equation}
+
+que nos permite lidar com a massa em termos de sua distribuição de energia e volume explicitamente. Podemos descrever instabilidade gravitacional presente na região, utilizando o conceitos como potencial gravitacional $\phi$, a segunda Lei de Newton e a pressão no fluído, a força gravitacional pode ser escrita como
+
+\begin{equation}\label{eq4}
+	\textbf{F}_{gr} = - \Delta M \nabla\phi
+\end{equation}
+
+a força devido a pressão no fluído é dada por 
+
+\begin{equation}\label{eq5}
+	\textbf{F}_{pr} = - \oint p \cdot d\sigma = - \int_{\Delta V} \nabla p\,\,\, dV
+\end{equation}
+
+ao utilizar a segunda Lei de Newton, podemos encontrar a equação de Euler
+
+\begin{equation}\label{eq6}
+	\dfrac{\partial \textbf{V}}{\partial t} + (\textbf{V} \cdot \nabla) \textbf{V} + \dfrac{\nabla p}{\varepsilon} + \nabla\phi = 0
+\end{equation}
+ que nos permite descrever a instabilidade gravitacional em termos do volume, distribuição de energia, a pressão e potencial gravitacional.
+ 
+ A conservação de entropia do sistema não permite a dissipação de energia, e portanto, a entropia para um pequeno elemento de matéria é conservada
+ 
+ \begin{equation}\label{eq7}
+ 	\dfrac{d S(\textbf{x},t)}{dt} = \dfrac{\partial S}{\partial t} + (\textbf{V} \cdot \nabla) S = 0.
+ \end{equation} 
  
