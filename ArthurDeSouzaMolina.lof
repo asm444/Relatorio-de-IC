@@ -1,1 +1,5 @@
 \babel@toc {brazil}{}\relax 
+\contentsline {figure}{\numberline {1}{\ignorespaces A primeira análise mostra os resultados da comparação entre os métodos \textit {fftlog} e o \textit {bessel} do CCL utilizando os dados de histograma e os mesmos traçadores com o objetivo de apresentar a precisão relativa entre eles.\relax }}{9}{figure.caption.15}%
+\contentsline {figure}{\numberline {2}{\ignorespaces A segunda análise apresenta a comparação utilizando os dados de histograma, os mesmos métodos e diferentes funções de correlação.\relax }}{10}{figure.caption.16}%
+\contentsline {figure}{\numberline {3}{\ignorespaces A terceira análise mostra os resultados da comparação entre os métodos \textit {fftlog} e o \textit {bessel} do CCL utilizando os dados do caso analíticos utilizando a mesma função de correlação, em cada um dos casos, as funções g1 e g2.\relax }}{10}{figure.caption.17}%
+\contentsline {figure}{\numberline {4}{\ignorespaces A quarta análise mostra a comparação dos resultados computados pelo CCL ao utilizar os dados do caso analítico, os mesmos métodos para calcular funções de correlação diferentes no mesmo gráfico.\relax }}{11}{figure.caption.18}%

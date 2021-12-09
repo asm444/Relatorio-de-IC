@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.26)  6 DEC 2021 10:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.26)  8 DEC 2021 21:11
 entering extended mode
 **./ArthurDeSouzaMolina.tex
 (ArthurDeSouzaMolina.tex
@@ -1516,10 +1516,25 @@ Package babel Info: Importing basic data for english
 (babel)             from babel-en.ini. Reported on input line 11.
 ) [6
 
-] (ArthurDeSouzaMolina.lof) [7
+] (ArthurDeSouzaMolina.lof
+Overfull \vbox (26.37845pt too high) detected at line 2
+ []
 
-] (ArthurDeSouzaMolina.toc)
-[8
+
+Overfull \vbox (8.38399pt too high) detected at line 3
+ []
+
+
+Overfull \vbox (26.37845pt too high) detected at line 4
+ []
+
+
+Overfull \vbox (26.37845pt too high) detected at line 5
+ []
+
+) [7
+
+] (ArthurDeSouzaMolina.toc) [8
 
 ]
 Package srcltx Info: Expanded filename `Textos/Introducao.tex' to `Textos/Intro
@@ -1536,29 +1551,70 @@ to `Textos/InstabilidadeGravitacional.tex' on input line 344.
 
 ] [2
 
-])
+] [3] [4]
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
+
+ []
+
+[5])
 :<-
 Package srcltx Info: Expanded filename `Textos/AnalisedeCodigos.tex' to `Textos
 /AnalisedeCodigos.tex' on input line 345.
 :<+ Textos/AnalisedeCodigos.tex
-(Textos/AnalisedeCodigos.tex [3] [4
+(Textos/AnalisedeCodigos.tex [6] [7
 
 ])
 :<-
 Package srcltx Info: Expanded filename `Textos/Resultados.tex' to `Textos/Resul
 tados.tex' on input line 346.
 :<+ Textos/Resultados.tex
-(Textos/Resultados.tex [5])
+(Textos/Resultados.tex [8]
+<../Produção do Relatório/Trabalho de ic de Arthur/figuras/fig1.png, id=162,
+ 874.76813pt x 403.5075pt>
+File: ../Produção do Relatório/Trabalho de ic de Arthur/figuras/fig1.png Gra
+phic file (type png)
+<use ../Produção do Relatório/Trabalho de ic de Arthur/figuras/fig1.png>
+Package pdftex.def Info: ../Produção do Relatório/Trabalho de ic de Arthur/f
+iguras/fig1.png  used on input line 12.
+(pdftex.def)             Requested size: 318.49861pt x 146.91266pt.
+ [9
+
+ <../Produção do Relatório/Trabalho de ic de Arthur/figuras/fig1.png>]
+<../Produção do Relatório/Trabalho de ic de Arthur/figuras/fig2.png, id=170,
+ 812.28468pt x 391.4625pt>
+File: ../Produção do Relatório/Trabalho de ic de Arthur/figuras/fig2.png Gra
+phic file (type png)
+<use ../Produção do Relatório/Trabalho de ic de Arthur/figuras/fig2.png>
+Package pdftex.def Info: ../Produção do Relatório/Trabalho de ic de Arthur/f
+iguras/fig2.png  used on input line 23.
+(pdftex.def)             Requested size: 318.49861pt x 153.48808pt.
+<../Produção do Relatório/Trabalho de ic de Arthur/figuras/fig3.png, id=171,
+ 825.83531pt x 395.97937pt>
+File: ../Produção do Relatório/Trabalho de ic de Arthur/figuras/fig3.png Gra
+phic file (type png)
+<use ../Produção do Relatório/Trabalho de ic de Arthur/figuras/fig3.png>
+Package pdftex.def Info: ../Produção do Relatório/Trabalho de ic de Arthur/f
+iguras/fig3.png  used on input line 34.
+(pdftex.def)             Requested size: 318.49861pt x 152.71536pt.
+<../Produção do Relatório/Trabalho de ic de Arthur/figuras/fig4.png, id=172,
+ 792.71156pt x 385.44pt>
+File: ../Produção do Relatório/Trabalho de ic de Arthur/figuras/fig4.png Gra
+phic file (type png)
+<use ../Produção do Relatório/Trabalho de ic de Arthur/figuras/fig4.png>
+Package pdftex.def Info: ../Produção do Relatório/Trabalho de ic de Arthur/f
+iguras/fig4.png  used on input line 43.
+(pdftex.def)             Requested size: 318.49861pt x 154.86726pt.
+ [10 <../Produção do Relatório/Trabalho de ic de Arthur/figuras/fig2.png> <.
+./Produção do Relatório/Trabalho de ic de Arthur/figuras/fig3.png>])
 :<-
 Package srcltx Info: Expanded filename `Textos/Conclusao.tex' to `Textos/Conclu
 sao.tex' on input line 347.
 :<+ Textos/Conclusao.tex
-(Textos/Conclusao.tex [6
-
-])
+(Textos/Conclusao.tex [11 <../Produção do Relatório/Trabalho de ic de Arthur
+/figuras/fig4.png>])
 :<-
 :<+ ArthurDeSouzaMolina.bbl
-(ArthurDeSouzaMolina.bbl [7
+(ArthurDeSouzaMolina.bbl [12
 
 ]
 bibitemlist
@@ -1567,7 +1623,7 @@ LaTeX Warning: Empty `thebibliography' environment on input line 8.
 
 )
 :<-
-[8
+[13
 
 ]
 \tf@lof=\write5
@@ -1578,36 +1634,41 @@ LaTeX Warning: Empty `thebibliography' environment on input line 8.
 
  (ArthurDeSouzaMolina.aux) ) 
 Here is how much of TeX's memory you used:
- 32009 strings out of 478681
- 590233 string characters out of 2846534
- 920612 words of memory out of 3000000
- 49317 multiletter control sequences out of 15000+600000
- 475059 words of font info for 155 fonts, out of 8000000 for 9000
+ 32141 strings out of 478681
+ 594601 string characters out of 2846534
+ 925095 words of memory out of 3000000
+ 49401 multiletter control sequences out of 15000+600000
+ 475753 words of font info for 162 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  85i,13n,106p,1276b,538s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts
 /enc/dvips/lm/lm-rm.enc}{C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/enc
-/dvips/lm/lm-mathex.enc}{C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/enc
-/dvips/lm/lm-mathit.enc}{C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/enc
-/dvips/lm/lm-mathsy.enc}<C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmr10.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/mathpazo/fplmr.pfb><C:/Users/arthu/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/lm/lmb10.pfb><C:/Users/arthu/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/arthu/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/arthu/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/lm/lmex10.pfb><C:/Users/arthu/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/arthu/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/lm/lmr10.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/lm/lmr12.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/lm/lmr17.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/lm/lmr7.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/lm/lmri10.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/lm/lmri12.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/lm/lmsy10.pfb>
-Output written on ArthurDeSouzaMolina.pdf (16 pages, 288566 bytes).
+/dvips/base/8r.enc}{C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/enc/dvip
+s/lm/lm-mathsy.enc}{C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/enc/dvip
+s/lm/lm-mathex.enc}{C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/enc/dvip
+s/lm/lm-mathit.enc}<C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmr10.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/mathpazo/fplmr.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/lm/lmb10.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/lm/lmbx10.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/lm/lmbx12.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/lm/lmbx9.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/lm/lmex10.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/lm/lmmi12.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/lm/lmmi9.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/font
+s/type1/public/lm/lmr10.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/lm/lmr12.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/lm/lmr17.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/lm/lmr7.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/lm/lmr9.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/lm/lmri10.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/lm/lmri12.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/lm/lmsy10.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/lm/lmsy9.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1/
+urw/palatino/uplr8a.pfb>
+Output written on ArthurDeSouzaMolina.pdf (21 pages, 686277 bytes).
 PDF statistics:
- 249 PDF objects out of 1000 (max. 8388607)
- 48 named destinations out of 1000 (max. 500000)
- 38530 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 339 PDF objects out of 1000 (max. 8388607)
+ 75 named destinations out of 1000 (max. 500000)
+ 38550 words of extra memory for PDF output out of 42996 (max. 10000000)
 
