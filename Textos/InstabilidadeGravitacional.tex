@@ -146,39 +146,51 @@ No caso de uma pertubação de vetor, onde as pertubações na distribuição de
 
 Ao considerarmos a instabilidade gravitacional em um universo expansão, homogêneo e isotrópico, onde a distribuição de energia depende do tempo e as velocidades obedecem a lei de Hubble-Lemaître
 
-\begin{equation}\label{eq21}
+\begin{equation}\label{eq20}
 	\varepsilon = \varepsilon_0 (t), \,\,\, \mathbf{V} = \mathbf{V}_0 = \mathbf{H} (t) \mathbf{x}.
 \end{equation}
  
  substituimos esse resultado na eq. (3), obtemos
  
-\begin{equation}\label{eq22}
+\begin{equation}\label{eq21}
 	\dfrac{\partial \varepsilon_0}{\partial t}  + 3 \mathbf{H}\varepsilon_0 = 0 
 \end{equation} 
 
 ao agruparmos a divergência equação de Euler com a equação de Poisson, chegamos na equação de Friedmann
 
-\begin{equation}\label{eq23}
+\begin{equation}\label{eq22}
 	\dot{\mathbf{H}} + \mathbf{H}^2 = - \dfrac{4\pi G}{3}\varepsilon_0.
 \end{equation}
 
 As pertubações são dadas por
 
-\begin{equation}\label{eq24}
+\begin{equation}\label{eq23}
 	\varepsilon = \varepsilon_0 + \delta\varepsilon_0 (\mathbf{x},t),\,\, \mathbf{V} = \mathbf{V}_0 + \delta\mathbf{v} , \phi= \phi_0 + \delta\phi\,\,\, 
 \end{equation}
 
 $$p = p_0 + \delta p= p_0 + c_2^2\delta\varepsilon$$
 
-ao ignorar a pertubação de entropia.
+ao ignorar a pertubação de entropia. Podemos relacionar novamente as equações anteriores de hidrodinâmica com os termos lineares as pertubações encontrando relações semelhantes. 
 
+A velocidade de Hubble-Lemaître depende exclusivamente da posição $ \mathbf{x} $, portanto as transformações de Fourier não desacoplam as coordenadas eulerianas $ \mathbf{x} $ em equações diferenciais ordinárias dependentes exclusivamente do tempo. Logo, é mais conveniente utilizar as coordenadas Lagrangianas (comoventes com o fluxo de Hubble) $ \mathbf{q} $ com  
 
+\begin{equation}\label{eq24}
+	\mathbf{x} = a(t)\mathbf{q},
+\end{equation}
 
+relacionando as operações diferenciais para uma função genérica 
 
+\begin{equation}\label{eq25}
+	\left(\dfrac{\partial}{\partial t}\right)_\mathbf{x} = \left( \dfrac{\partial}{\partial t} \right)_\mathbf{q} - (\mathbf{V}_0 \cdot \nabla_\mathbf{x}),
+\end{equation}
 
+as devidas espaciais estão relacionadas de forma mais simples
 
+\begin{equation}\label{eq26}
+	\nabla_\mathbf{x} = \dfrac{1}{a}\nabla_\mathbf{q}
+\end{equation}
 
-
+e introduzindo a amplitude fracionária de densidade de energia $ \delta \equiv \dfrac{\delta\varepsilon}{\varepsilon_0} $
 
 
 
