@@ -89,6 +89,8 @@ Através dessas pertubações nas variáveis do sistema, conseguimos construir u
 
 $ \delta\varepsilon $ está contida em uma equação fechada, onde a entropia serve como uma fonte da pertubação.
 
+\subsection*{Pertubações adiabáticas}
+
 No caso de uma pertubação adiabática, onde não há troca de calor, ou seja, a pertubação na entropia é nula, e portanto, não depende das coordenadas espaciais, uma vez que a entropia é o único termo da eq.(12) depende exclusivamente das coordenadas espaciais, consequentemente, o termo a direita da equação eq.(12) se torna equivalente a 0, logo ao utilizar as transformações de Fourier e encontrar uma equação diferencial que relaciona a pertubação da distribuição de energia com as quantidades expressas em uma equação completamente dependente do tempo dada por 
 
 \begin{equation}\label{eq13}
@@ -121,6 +123,8 @@ Uma dessas soluções descrevem o comportamento exponencialmente rápido e não 
 
 O comprimento Jeans $\lambda_J \sim c_s t_{gr} $ é o "comunicação de som" sobre a qual a pressão consegue reagir as mudanças da densidade de energia devido ao colapso gravitacional.
 
+
+\subsection*{Pertubações de Vetor}
 No caso de uma pertubação de vetor, onde as pertubações na distribuição de energia e na entropia são nulas, ou seja, $ \delta\varepsilon = 0 $ e $ \delta S = 0$, ao aplicar este resultado nas equações hidrodinâmicas de pertubações e a transformação de Fourier, concluímos que a velocidade da pertubação de onda plana, isto é, $\delta\mathbf{v} = \mathbf{w_k} e^{i\mathbf{k}\mathbf{x}}$ e que a velocidade é perpendicular ao vetor de onda $\mathbf{k}$, ou seja,
 
 \begin{equation}\label{eq17}
@@ -128,6 +132,8 @@ No caso de uma pertubação de vetor, onde as pertubações na distribuição de
 \end{equation}
 
  As perturbações vetoriais descrevem o movimento de cisalhamento do meio que não perturbam a densidade de energia, pois existem duas direções perpendiculares independentes para $\mathbf{k}$.
+ 
+ \subsection*{Pertubações de Entropia}
  
  Por fim, as pertubações de entropia, onde $ \delta S \neq 0$, ao analisar a eq. (12) completa, aplicando as transformações de Fourier obtemos a seguinte equação diferencial 
  
@@ -143,13 +149,15 @@ No caso de uma pertubação de vetor, onde as pertubações na distribuição de
 
 é chamada de pertubação de entropia. Observe-se que $k \to \infty$ quando a contribuição da gravidade não é relevante. Neste caso, a contribuição para a pressão devido à falta de homogeneidade da densidade de energia é exatamente compensada pela contribuição correspondente as perturbações de entropia, logo, essas pertubações ocorrem apenas em fluidos constituídos de muitas componentes, por exemplo, um fluido que consiste em bárions e radiação.
 
+\section*{Universo em Expansão}
+
 Ao considerarmos a instabilidade gravitacional no universo em expansão, homogêneo e isotrópico, onde a distribuição de energia depende do tempo e as velocidades obedecem a lei de Hubble-Lemaître, temos
 
 \begin{equation}\label{eq20}
 	\varepsilon = \varepsilon_0 (t), \,\,\, \mathbf{V} = \mathbf{V}_0 = \mathbf{H} (t) \mathbf{x}.
 \end{equation}
  
- substituimos esse resultado na eq. (3), obtemos
+ substituímos esse resultado na eq. (3), obtemos
  
 \begin{equation}\label{eq21}
 	\dfrac{\partial \varepsilon_0}{\partial t}  + 3 \mathbf{H}\varepsilon_0 = 0 
@@ -213,6 +221,8 @@ e agrupando as equações relacionando seus resultados em termos lineares as peq
  	\ddot{\delta} + 2\mathbf{H}\dot{\delta} - \dfrac{c^2_s}{a^2}\nabla^2\delta - 4\pi G\varepsilon_0\delta = 0.
 \end{equation}
 
+\subsection*{Pertubações adiabáticas}
+
 No caso de pertubações adiabáticas no universo em expansão, utilizando a descrição da amplitude fracionária de densidade de energia no espaço de Fourier, obtemos a seguinte equação diferencial 
 
 \begin{equation}\label{eq31}
@@ -232,8 +242,38 @@ ao comprimento de onda comovente $\lambda = \dfrac{2\pi}{k}$ com $\lambda^{ph} =
 	\lambda_J^{ph} \sim c_s t,
 \end{equation}
 
-isto é, o comprimento do jeans está na ordem do horizonte de som. Às vezes, em vez do
-Comprimento de jeans, usa-se a massa de jeans, definida como $M_J \equiv\varepsilon_0 (\lambda_J^{ph})^3$.
+isto é, o comprimento do Jeans está na ordem do horizonte de som. Às vezes, ao  invés de usar o comprimento de Jeans, usa-se a massa de Jeans, definida como $M_J \equiv\varepsilon_0 (\lambda_J^{ph})^3$. Se $ c_s $ mudar diabaticamente, a solução particular da eq. (31) é dada por
 
+\begin{equation}\label{eq34}
+	\delta_\mathbf{k} \propto \dfrac{1}{\sqrt{c_s a}} \,exp\left( \pm k \int \dfrac{c_s dt}{a}\right)
+\end{equation}
 
+Em escalas muito maiores do que a escala de Jeans, a gravidade possui a maior contribuição na evolução da pertubação domina e negligencia o termo dependente de k em eq.(31). Então, uma das soluções é simplesmente e proporcional a constante de Hubble. Entretanto, ao substituir essa solução  $\delta_d = H (t)$ na eq.(31) e assumindo $c^2_s k^2 = 0$, descobre-se que a equação resultante coincide com o tempo derivada da equação de Friedmann eq.(22). Observe que $\delta_d = H (t)$ é o decaimento
+solução da equação de perturbação ($ H $ diminui com o tempo) em um dominado pela matéria universo com curvatura arbitrária.
 
+Quando utilizamos as propriedades da derivada do Wronskiano para encontrar soluções descobrimos que as soluções são proporcionais termos lineares a potência do tempo, portanto, vemos que em um universo em expansão, a instabilidade gravitacional é muito menor eficiente e a amplitude da perturbação aumenta apenas com a potência do tempo.
+
+\subsection*{Pertubações de vetor}
+
+No caso de pertubações de vetor em um universo em expansão, ou seja, substituindo $ \delta = 0$ nas equações hidrodinâmicas, obtemos
+
+\begin{equation}\label{eq35}
+	\nabla\delta\mathbf{v} = 0 , \quad \dfrac{\partial\delta\mathbf{v}}{\partial t } + H\delta\mathbf{v} = 0
+\end{equation}
+
+A primeira equação segue que para uma perturbação de onda plana, $\delta\mathbf{v} \propto \delta\mathbf{v}_\mathbf{k} (t)e^{(i\mathbf{kq})}$ e a velocidade peculiar $\delta\mathbf{v}$ é perpendicular ao número de onda $\mathbf{k}$. A segunda equação torna-se
+
+\begin{equation}\label{eq36}
+	\delta\dot{\mathbf{v}}_\mathbf{k}+ \dfrac{\dot{a}}{a}\delta\mathbf{v}_\mathbf{k}=0,
+\end{equation}
+
+e tem a solução $\delta\mathbf{v_k} \propto \frac{1}{a}$. Assim, as perturbações do vetor decaem conforme o
+o universo se expande e podem ter amplitudes significativas no presente
+apenas se suas amplitudes iniciais fossem tão grandes que estragassem completamente a isotropia do universo primordial. Em um universo inflacionário, não há espaço para grandes perturbações vetoriais primordiais e não desempenham qualquer papel na formação de
+a estrutura em grande escala no universo. Perturbações de vetor, no entanto, podem ser
+gerado tardiamente, após a estrutura não linear ter sido formada e pode explicar a rotação das galáxias por exemplo.
+
+\subsection*{Matéria bariônica fria na presença de radiação ou energia escura}
+
+Há evidências convincentes de que junto com a matéria fria do universo lá
+existe um componente de energia escura suave. Esta energia escura muda a taxa de expansão e, como resultado, influência o crescimento de heterogeneidades na matéria fria.
