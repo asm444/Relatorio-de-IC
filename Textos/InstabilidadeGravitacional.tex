@@ -169,48 +169,51 @@ onde as pertubações são dadas por
 
 $$p = p_0 + \delta p= p_0 + c_2^2\delta\varepsilon ,$$
 
-ao ignorar a pertubação de entropia. Podemos relacionar novamente as equações anteriores de hidrodinâmica com os termos lineares as pertubações e encontrarmos as equações hidrodinâmicas para um universo em expansão. A equação de conservação do fluxo de massa eq. (3) pode ser escrita como 
-
-\begin{equation}\label{eq24}
-	\dfrac{\partial\delta\varepsilon}{\partial t} + \varepsilon_0(\nabla\cdot\delta\mathbf{v})+\mathbf{\nabla} (\delta\varepsilon \cdot \mathbf{V}) = 0,
-\end{equation}
-
-a equação de Euler para um universo em expansão é dado por
-
-\begin{equation}\label{eq25}
-	\dfrac{\partial\delta\mathbf{v}}{\partial t} + (\mathbf{V}_0 \cdot \nabla)\delta\mathbf{v} + (\delta\mathbf{v} \cdot \nabla) \mathbf{V}_0 + \dfrac{c^2_s}{\varepsilon_0}\nabla\delta\varepsilon + \nabla\delta\phi = 0
-\end{equation}
-
-e a equação de Poisson
-
-\begin{equation}\label{eq26}
-	\nabla^2\delta\phi = 4\pi G\delta\varepsilon.
-\end{equation}
+ao ignorar a pertubação de entropia. Podemos relacionar novamente as equações anteriores de hidrodinâmica com os termos lineares as pertubações e encontrarmos as equações hidrodinâmicas para um universo em expansão.
 
 A velocidade de Hubble-Lemaître depende exclusivamente da posição $ \mathbf{x} $, portanto as transformações de Fourier não desacoplam as coordenadas eulerianas $ \mathbf{x} $ em equações diferenciais ordinárias dependentes exclusivamente do tempo. Logo, é mais conveniente utilizar as coordenadas Lagrangianas $ \mathbf{q} $ com  
 
-\begin{equation}\label{eq27}
+\begin{equation}\label{eq24}
 	\mathbf{x} = a(t)\mathbf{q},
 \end{equation}
 
 relacionando as operações diferenciais para uma função genérica 
 
-\begin{equation}\label{eq28}
+\begin{equation}\label{eq25}
 	\left(\dfrac{\partial}{\partial t}\right)_\mathbf{x} = \left( \dfrac{\partial}{\partial t} \right)_\mathbf{q} - (\mathbf{V}_0 \cdot \nabla_\mathbf{x}),
 \end{equation}
  
 as devidas espaciais estão relacionadas de forma mais simples
 
-\begin{equation}\label{eq29}
+\begin{equation}\label{eq26}
 	\nabla_\mathbf{x} = \dfrac{1}{a}\nabla_\mathbf{q},
 \end{equation}
 
- introduzindo a amplitude fracionária de densidade de energia $ \delta \equiv \frac{\delta\varepsilon}{\varepsilon_0} $ e agrupando as equações relacionando seus resultados em termos lineares as pequenas pertubações, obtemos a equação que descreve a instabilidade gravitacional no universo em expansão que dado por
+ introduzindo a amplitude fracionária de densidade de energia $ \delta \equiv \frac{\delta\varepsilon}{\varepsilon_0} $, podemos reescrever as equações hidrodinâmicas para um universo em expansão, a equação que descreve a conservação do fluxo de massa assume a forma 
  
- \begin{equation}\label{eq30}
- 	\ddot{\delta} + 2\mathbf{H}\dot{\delta} - \dfrac{c^2_s}{a^2}\nabla^2\delta - 4\pi G\varepsilon_0\delta = 0.
+ \begin{equation}\label{eq27}
+ 	\left( \dfrac{\partial \delta}{\partial t} \right) + \dfrac{1}{a}(\nabla\cdot\delta\mathbf{v}) = 0,
  \end{equation}
+ 
+a equação de Euler é dada por
 
+\begin{equation}\label{eq28}
+	\left( \dfrac{\partial \delta\mathbf{v}}{\partial t} \right) +H\delta\mathbf{v}+\dfrac{c^2_s}{a}\nabla\delta + \dfrac{1}{a}\nabla\delta\phi =0
+\end{equation}
+
+e por fim, a equação de Poisson
+
+\begin{equation}\label{eq29}
+	\nabla^2\delta\phi = 4\pi Ga^2\varepsilon_0\delta
+\end{equation}
+ 
+e agrupando as equações relacionando seus resultados em termos lineares as pequenas pertubações, obtemos a equação que descreve a instabilidade gravitacional no universo em expansão que dado por
+ 
+\begin{equation}\label{eq30}
+ 	\ddot{\delta} + 2\mathbf{H}\dot{\delta} - \dfrac{c^2_s}{a^2}\nabla^2\delta - 4\pi G\varepsilon_0\delta = 0.
+\end{equation}
+
+No caso de pertubações adiabáticas no universo em expansão, 
 
 
 
