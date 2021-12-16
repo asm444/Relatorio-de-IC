@@ -3,8 +3,6 @@
 
 Quando estudamos uma estrutura de grande escala utilizando as teorias Newtonianas, pressupomos que a estrutura não possui velocidade relativística, a estrutura está em uma região que se expande menos rapidamente em relação as outras regiões, a estrutura esteja em colapso sobre a sua auto-gravidade, ou seja, a instabilidade gravitacional é o mecanismo de maior contribuição para sua evolução e a matéria se comporta como um fluído perfeito.
 
-Os resultados obtidos pela mecânica clássica possuem uma discrepância com um fator de $\frac{v^2}{c^2}$ em relação a mecânica relativística, ao pressupor que a estrutura não possui velocidade relativística, então $\frac{v^2}{c^2} \rightarrow 0$ e a mecânica relativística deve concordar com os resultados obtidos pela mecânica clássica, já o fato que o espaço se expande de forma acelerada em todas as direções como descrito pela lei de Hubble-Lemaître, não impede de fazer uma descrição mais simples do comportamento da matéria e acrescentar conceitos gradualmente com as pertubações na região estudada.
-
 A partir dessas pressuposições, podemos descrever essas estruturas em termos de sua distribuição de energia $\varepsilon(\mathbf{x},t)$, a entropia por unidade de massa $\textbf{S}(\mathbf{x},t)$ e o vetor velocidade $\textbf{V}(\mathbf{x},t)$, ao estabelecer essas quantidades para um volume fixo em uma região, sabemos que a variação da massa deve ser equivalente a variação de sua distribuição de energia em todo o volume nesta região, em outras palavras, 
 
 \begin{equation}\label{eq1}
@@ -23,16 +21,16 @@ Devido a equivalência de eq. (1) e eq. (2), podemos escrever a seguinte relaç�
 	\frac{\partial \varepsilon}{\partial t} + \nabla (\varepsilon\mathbf{V}) = 0,
 \end{equation}
 
-que nos permite lidar com a massa em termos de sua distribuição de energia e volume explicitamente. Podemos descrever instabilidade gravitacional na região, utilizando o conceitos como potencial gravitacional $\phi$, a segunda Lei de Newton e a pressão no fluído, a força gravitacional pode ser escrita como
+que nos permite lidar com a massa em termos de sua distribuição de energia e volume explicitamente. Podemos descrever instabilidade gravitacional na região, utilizando o conceitos como potencial gravitacional $\phi$, a segunda Lei de Newton e a pressão no fluído. A força gravitacional pode ser escrita como
 
 \begin{equation}\label{eq4}
-	\textbf{F}_{gr} = - \Delta M \nabla\phi
+	\textbf{F}_{gr} = - \Delta M \nabla\phi,
 \end{equation}
 
 a força devido a pressão no fluído é dada por 
 
 \begin{equation}\label{eq5}
-	\textbf{F}_{pr} = - \oint p \cdot d\sigma = - \int_{\Delta V} \nabla p\,\,\, dV
+	\textbf{F}_{pr} = - \oint p \cdot d\sigma = - \int_{\Delta V} \nabla p\,\,\, dV,
 \end{equation}
 
 ao utilizar a segunda Lei de Newton, podemos encontrar a equação de Euler
@@ -40,6 +38,7 @@ ao utilizar a segunda Lei de Newton, podemos encontrar a equação de Euler
 \begin{equation}\label{eq6}
 	\dfrac{\partial \textbf{V}}{\partial t} + (\textbf{V} \cdot \nabla) \textbf{V} + \dfrac{\nabla p}{\varepsilon} + \nabla\phi = 0
 \end{equation}
+
  que nos permite descrever a instabilidade gravitacional em termos do volume, distribuição de energia, a pressão e potencial gravitacional.
  
  A conservação de entropia do sistema não permite a dissipação de energia, e portanto, a entropia para um pequeno elemento de matéria é conservada
@@ -48,17 +47,17 @@ ao utilizar a segunda Lei de Newton, podemos encontrar a equação de Euler
  	\dfrac{d S(\textbf{x},t)}{dt} = \dfrac{\partial S}{\partial t} + (\textbf{V} \cdot \nabla) S = 0,
  \end{equation} 
  
- também nos utilizamos da equação de Poisson para determinar o potencial gravitacional
+ também usamos a equação de Poisson para determinar o potencial gravitacional
  
  \begin{equation}\label{eq8}
  	\nabla^2\phi = 4\pi G\varepsilon.
  \end{equation}
 
-E através dessas equações hidrodinâmicas, podemos estudar o comportamento de pequenas pertubações nas funções desconhecidas: $ \varepsilon $,$ \textbf{V} $, $ p $ e $ \phi $.
+Através dessas equações hidrodinâmicas, podemos estudar o comportamento de pequenas pertubações nas funções desconhecidas: $ \varepsilon $,$ \textbf{V} $, $ p $ e $ \phi $.
 
 \section*{Teoria de Jeans}
 
-Assumimos que o universo é estático, homogêneo, isotrópico, não expansível e que a distribuição de energia na região estudada não varia com tempo e permaneça constante $\varepsilon (\mathbf{x},t) = \text{constante}$, mas para que a distribuição de energia permaneça constante, a matéria necessitaria de estar em repouso, o fato da força gravitacional ser proporcional ao gradiente do potencial não permitindo que essa condição seja satisfeita, ou seja, a equação de Poisson não é satisfeita, logo o universo precisar de uma constante de cosmológica apropriada para se manter estático.
+Assumimos que o universo é estático, homogêneo, isotrópico, não expansível e que a distribuição de energia na região estudada não varia com tempo e permaneça constante $\varepsilon (\mathbf{x},t) = \text{constante}$, mas para que a distribuição de energia permaneça constante, a matéria necessitaria de estar em repouso, o fato da força gravitacional ser proporcional ao gradiente do potencial, não permite que essa condição seja satisfeita, ou seja, a equação de Poisson não é satisfeita, logo o universo precisar de uma constante de cosmológica apropriada para se manter estático.
 
 Com pequenas pertubações, temos
 
@@ -82,7 +81,7 @@ ao realizar uma aproximação linear dessas pertubações, podemos escrever a pe
 
 onde $c^2_s \equiv \left(\dfrac{\partial p}{\partial\varepsilon}\right)_s$ é o quadrado da velocidade do som e $\sigma \equiv \left(\dfrac{\partial p}{\partial S}\right)_\varepsilon$. Para a matéria não relativística, a velocidade do som é muito menor que a velocidade da luz ($c_s \ll c  $).
 
-Através dessas pertubações nas variáveis do sistema, conseguimos construir uma descrição clara com aproximações lineares o comportamento do sistema. Ao aplicar as pequenas pertubações em cada uma das definições acima, combinando as equações, conseguimos obter uma relação de cada uma das variações ao mantendo apenas os termos lineares as pertubações da seguinte forma 
+Através dessas pertubações nas variáveis do sistema, conseguimos construir uma descrição clara com aproximações lineares do comportamento do sistema. Ao aplicar as pequenas pertubações em cada uma das definições acima, combinando as equações, conseguimos obter uma relação de cada uma das variações ao mantendo apenas os termos lineares as pertubações da seguinte forma 
 
 \begin{equation}\label{eq12}
 	\dfrac{\partial^2\delta\varepsilon}{\partial t^2} - c^2_s\nabla^2\delta\varepsilon - 4\pi G\varepsilon_0\delta\varepsilon = \sigma\nabla^2\delta S(\textbf{x}),
@@ -90,7 +89,7 @@ Através dessas pertubações nas variáveis do sistema, conseguimos construir u
 
 $ \delta\varepsilon $ está contida em uma equação fechada, onde a entropia serve como uma fonte da pertubação.
 
-No caso de uma pertubação adiabática, onde não há troca de calor, ou seja, a pertubação na entropia é nula, e portanto, não depende das coordenadas espaciais, uma vez que a entropia é o único termo da eq.(12) depende exclusivamente das coordenadas espaciais, consequentemente, o termo a direita da equação eq.(12) se torna equivalente a 0, logo, podemos utilizar as transformações de Fourier e encontrar uma equação diferencial que relaciona a pertubação da distribuição de energia com as quantidades expressas na equação completamente dependente do tempo dada por 
+No caso de uma pertubação adiabática, onde não há troca de calor, ou seja, a pertubação na entropia é nula, e portanto, não depende das coordenadas espaciais, uma vez que a entropia é o único termo da eq.(12) depende exclusivamente das coordenadas espaciais, consequentemente, o termo a direita da equação eq.(12) se torna equivalente a 0, logo ao utilizar as transformações de Fourier e encontrar uma equação diferencial que relaciona a pertubação da distribuição de energia com as quantidades expressas em uma equação completamente dependente do tempo dada por 
 
 \begin{equation}\label{eq13}
 	\dfrac{\partial^2 (\delta\varepsilon_k )}{\partial t^2} +(k^2c^2_s - 4\pi G\varepsilon_0)\delta\varepsilon_k (t) = 0
@@ -116,13 +115,13 @@ onde $\omega (k_J) = 0$, para  $\lambda < \lambda_J$, as soluções descrevem as
 	c_{fase} = \dfrac{\omega}{k}= c_s\sqrt{1 - \dfrac{k^2_J}{k}}.
 \end{equation}
 
-Ao analisar as soluções, no limite de $k \geq k_J$ ou em escalas muito pequenas ($\lambda \leq \lambda_J$), onde a gravidade é insignificante comparado com a pressão, consequentemente $c_{fase} \to c_s$.\\
+Ao analisar as soluções, no limite de $k \geq k_J$ ou em escalas muito pequenas ($\lambda \leq \lambda_J$), onde a contribuição da gravidade é insignificante comparado com a contribuição da pressão, consequentemente $c_{fase} \to c_s$.\\
 
-Uma dessas soluções descrevem o comportamento exponencialmente rápido e não homogêneo, enquanto outras correspondem o modo decaimento, onde $k \to 0$, $|\omega | t \to \dfrac{t}{t_{gr}}$, onde $t_{gr} \equiv (4\pi G\varepsilon_0)^{-1/2}$. Onde $t_{gr}$ é interpretado como o tempo característico de colapso para uma região com uma densidade de energia inicial $\varepsilon_0$.
+Uma dessas soluções descrevem o comportamento exponencialmente rápido e não homogêneo, enquanto outras correspondem o modo decaimento, onde $k \to 0$, $|\omega | t \to \dfrac{t}{t_{gr}}$, onde $t_{gr} \equiv (4\pi G\varepsilon_0)^{-1/2}$. Onde $t_{gr}$ é interpretado como o tempo característico de colapso para uma região com densidade de energia inicial $\varepsilon_0$.
 
 O comprimento Jeans $\lambda_J \sim c_s t_{gr} $ é o "comunicação de som" sobre a qual a pressão consegue reagir as mudanças da densidade de energia devido ao colapso gravitacional.
 
-No caso de uma pertubação de vetor, onde as pertubações na distribuição de energia e na entropia são nulas, ou seja, as relações lineares de pertubação com $ \delta\varepsilon = 0 $ e $ \delta S = 0$, o resultado dessas substituições, e inclusive no espaço de Fourier, concluímos que a velocidade da pertubação de onda plana, isto é, $\delta\mathbf{v} = \mathbf{w_k} e^{i\mathbf{k}\mathbf{x}}$ e que a velocidade é perpendicular ao vetor de onda $\mathbf{k}$, ou seja,
+No caso de uma pertubação de vetor, onde as pertubações na distribuição de energia e na entropia são nulas, ou seja, $ \delta\varepsilon = 0 $ e $ \delta S = 0$, ao aplicar este resultado nas equações hidrodinâmicas de pertubações e a transformação de Fourier, concluímos que a velocidade da pertubação de onda plana, isto é, $\delta\mathbf{v} = \mathbf{w_k} e^{i\mathbf{k}\mathbf{x}}$ e que a velocidade é perpendicular ao vetor de onda $\mathbf{k}$, ou seja,
 
 \begin{equation}\label{eq17}
 	\mathbf{w_k} \cdot \mathbf{k} = 0.
@@ -142,9 +141,9 @@ No caso de uma pertubação de vetor, onde as pertubações na distribuição de
 	\delta\varepsilon_k  = \dfrac{ -\sigma k^2 \delta S_k}{k^2c^2_s - 4\pi G\varepsilon_0}
 \end{equation}
 
-é chamada de pertubação de entropia. Nota-se que $k \to \infty$ quando a gravidade não é relevante. Neste caso, a contribuição para a pressão devido à falta de homogeneidade da densidade de energia é exatamente compensada pela contribuição correspondente as perturbações de entropia, logo, essas ocorrem apenas em fluidos constituídos de muitas componentes, por exemplo, um fluido que consiste em bárions e radiação.
+é chamada de pertubação de entropia. Observe-se que $k \to \infty$ quando a contribuição da gravidade não é relevante. Neste caso, a contribuição para a pressão devido à falta de homogeneidade da densidade de energia é exatamente compensada pela contribuição correspondente as perturbações de entropia, logo, essas pertubações ocorrem apenas em fluidos constituídos de muitas componentes, por exemplo, um fluido que consiste em bárions e radiação.
 
-Ao considerarmos a instabilidade gravitacional em um universo expansão, homogêneo e isotrópico, onde a distribuição de energia depende do tempo e as velocidades obedecem a lei de Hubble-Lemaître
+Ao considerarmos a instabilidade gravitacional no universo em expansão, homogêneo e isotrópico, onde a distribuição de energia depende do tempo e as velocidades obedecem a lei de Hubble-Lemaître, temos
 
 \begin{equation}\label{eq20}
 	\varepsilon = \varepsilon_0 (t), \,\,\, \mathbf{V} = \mathbf{V}_0 = \mathbf{H} (t) \mathbf{x}.
@@ -159,38 +158,58 @@ Ao considerarmos a instabilidade gravitacional em um universo expansão, homogê
 ao agruparmos a divergência equação de Euler com a equação de Poisson, chegamos na equação de Friedmann
 
 \begin{equation}\label{eq22}
-	\dot{\mathbf{H}} + \mathbf{H}^2 = - \dfrac{4\pi G}{3}\varepsilon_0.
+	\dot{\mathbf{H}} + \mathbf{H}^2 = - \dfrac{4\pi G}{3}\varepsilon_0,
 \end{equation}
 
-As pertubações são dadas por
+onde as pertubações são dadas por
 
 \begin{equation}\label{eq23}
 	\varepsilon = \varepsilon_0 + \delta\varepsilon_0 (\mathbf{x},t),\,\, \mathbf{V} = \mathbf{V}_0 + \delta\mathbf{v} , \phi= \phi_0 + \delta\phi\,\,\, 
 \end{equation}
 
-$$p = p_0 + \delta p= p_0 + c_2^2\delta\varepsilon$$
+$$p = p_0 + \delta p= p_0 + c_2^2\delta\varepsilon ,$$
 
-ao ignorar a pertubação de entropia. Podemos relacionar novamente as equações anteriores de hidrodinâmica com os termos lineares as pertubações encontrando relações semelhantes. 
-
-A velocidade de Hubble-Lemaître depende exclusivamente da posição $ \mathbf{x} $, portanto as transformações de Fourier não desacoplam as coordenadas eulerianas $ \mathbf{x} $ em equações diferenciais ordinárias dependentes exclusivamente do tempo. Logo, é mais conveniente utilizar as coordenadas Lagrangianas (comoventes com o fluxo de Hubble) $ \mathbf{q} $ com  
+ao ignorar a pertubação de entropia. Podemos relacionar novamente as equações anteriores de hidrodinâmica com os termos lineares as pertubações e encontrarmos as equações hidrodinâmicas para um universo em expansão. A equação de conservação do fluxo de massa eq. (3) pode ser escrita como 
 
 \begin{equation}\label{eq24}
+	\dfrac{\partial\delta\varepsilon}{\partial t} + \varepsilon_0(\nabla\cdot\delta\mathbf{v})+\mathbf{\nabla} (\delta\varepsilon \cdot \mathbf{V}) = 0,
+\end{equation}
+
+a equação de Euler para um universo em expansão é dado por
+
+\begin{equation}\label{eq25}
+	\dfrac{\partial\delta\mathbf{v}}{\partial t} + (\mathbf{V}_0 \cdot \nabla)\delta\mathbf{v} + (\delta\mathbf{v} \cdot \nabla) \mathbf{V}_0 + \dfrac{c^2_s}{\varepsilon_0}\nabla\delta\varepsilon + \nabla\delta\phi = 0
+\end{equation}
+
+e a equação de Poisson
+
+\begin{equation}\label{eq26}
+	\nabla^2\delta\phi = 4\pi G\delta\varepsilon.
+\end{equation}
+
+A velocidade de Hubble-Lemaître depende exclusivamente da posição $ \mathbf{x} $, portanto as transformações de Fourier não desacoplam as coordenadas eulerianas $ \mathbf{x} $ em equações diferenciais ordinárias dependentes exclusivamente do tempo. Logo, é mais conveniente utilizar as coordenadas Lagrangianas $ \mathbf{q} $ com  
+
+\begin{equation}\label{eq27}
 	\mathbf{x} = a(t)\mathbf{q},
 \end{equation}
 
 relacionando as operações diferenciais para uma função genérica 
 
-\begin{equation}\label{eq25}
+\begin{equation}\label{eq28}
 	\left(\dfrac{\partial}{\partial t}\right)_\mathbf{x} = \left( \dfrac{\partial}{\partial t} \right)_\mathbf{q} - (\mathbf{V}_0 \cdot \nabla_\mathbf{x}),
 \end{equation}
-
+ 
 as devidas espaciais estão relacionadas de forma mais simples
 
-\begin{equation}\label{eq26}
-	\nabla_\mathbf{x} = \dfrac{1}{a}\nabla_\mathbf{q}
+\begin{equation}\label{eq29}
+	\nabla_\mathbf{x} = \dfrac{1}{a}\nabla_\mathbf{q},
 \end{equation}
 
-e introduzindo a amplitude fracionária de densidade de energia $ \delta \equiv \dfrac{\delta\varepsilon}{\varepsilon_0} $
+ introduzindo a amplitude fracionária de densidade de energia $ \delta \equiv \frac{\delta\varepsilon}{\varepsilon_0} $ e agrupando as equações relacionando seus resultados em termos lineares as pequenas pertubações, obtemos a equação que descreve a instabilidade gravitacional no universo em expansão que dado por
+ 
+ \begin{equation}\label{eq30}
+ 	\ddot{\delta} + 2\mathbf{H}\dot{\delta} - \dfrac{c^2_s}{a^2}\nabla^2\delta - 4\pi G\varepsilon_0\delta = 0.
+ \end{equation}
 
 
 
