@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.26)  16 DEC 2021 15:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.26)  16 DEC 2021 16:10
 entering extended mode
 **./ArthurDeSouzaMolina.tex
 (ArthurDeSouzaMolina.tex
@@ -1569,7 +1569,7 @@ Package srcltx Info: Expanded filename `Textos/Resultados.tex' to `Textos/Resul
 tados.tex' on input line 346.
 :<+ Textos/Resultados.tex
 (Textos/Resultados.tex [10]
-<../Produção do Relatório/Trabalho de ic de Arthur/figuras/fig1.png, id=190,
+<../Produção do Relatório/Trabalho de ic de Arthur/figuras/fig1.png, id=189,
  874.76813pt x 403.5075pt>
 File: ../Produção do Relatório/Trabalho de ic de Arthur/figuras/fig1.png Gra
 phic file (type png)
@@ -1580,7 +1580,7 @@ iguras/fig1.png  used on input line 12.
  [11
 
  <../Produção do Relatório/Trabalho de ic de Arthur/figuras/fig1.png>]
-<../Produção do Relatório/Trabalho de ic de Arthur/figuras/fig2.png, id=199,
+<../Produção do Relatório/Trabalho de ic de Arthur/figuras/fig2.png, id=198,
  812.28468pt x 391.4625pt>
 File: ../Produção do Relatório/Trabalho de ic de Arthur/figuras/fig2.png Gra
 phic file (type png)
@@ -1588,7 +1588,7 @@ phic file (type png)
 Package pdftex.def Info: ../Produção do Relatório/Trabalho de ic de Arthur/f
 iguras/fig2.png  used on input line 23.
 (pdftex.def)             Requested size: 318.49861pt x 153.48808pt.
-<../Produção do Relatório/Trabalho de ic de Arthur/figuras/fig3.png, id=200,
+<../Produção do Relatório/Trabalho de ic de Arthur/figuras/fig3.png, id=199,
  825.83531pt x 395.97937pt>
 File: ../Produção do Relatório/Trabalho de ic de Arthur/figuras/fig3.png Gra
 phic file (type png)
@@ -1596,7 +1596,7 @@ phic file (type png)
 Package pdftex.def Info: ../Produção do Relatório/Trabalho de ic de Arthur/f
 iguras/fig3.png  used on input line 34.
 (pdftex.def)             Requested size: 318.49861pt x 152.71536pt.
-<../Produção do Relatório/Trabalho de ic de Arthur/figuras/fig4.png, id=201,
+<../Produção do Relatório/Trabalho de ic de Arthur/figuras/fig4.png, id=200,
  792.71156pt x 385.44pt>
 File: ../Produção do Relatório/Trabalho de ic de Arthur/figuras/fig4.png Gra
 phic file (type png)
@@ -1634,8 +1634,8 @@ LaTeX Warning: Empty `thebibliography' environment on input line 8.
 
  (ArthurDeSouzaMolina.aux) ) 
 Here is how much of TeX's memory you used:
- 32186 strings out of 478681
- 595095 string characters out of 2846534
+ 32185 strings out of 478681
+ 595084 string characters out of 2846534
  926876 words of memory out of 3000000
  49418 multiletter control sequences out of 15000+600000
  478955 words of font info for 166 fonts, out of 8000000 for 9000
@@ -1666,9 +1666,9 @@ e1/public/lm/lmr9.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/lm/lmsy10.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/lm/lmsy9.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1/
 urw/palatino/uplr8a.pfb>
-Output written on ArthurDeSouzaMolina.pdf (23 pages, 701591 bytes).
+Output written on ArthurDeSouzaMolina.pdf (23 pages, 700789 bytes).
 PDF statistics:
- 371 PDF objects out of 1000 (max. 8388607)
- 97 named destinations out of 1000 (max. 500000)
+ 369 PDF objects out of 1000 (max. 8388607)
+ 96 named destinations out of 1000 (max. 500000)
  40598 words of extra memory for PDF output out of 42996 (max. 10000000)
 
