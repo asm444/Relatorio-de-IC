@@ -1,8 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.26)  17 DEC 2021 10:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2021.12.20)  20 DEC 2021 08:28
 entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
 **./ArthurDeSouzaMolina.tex
 (ArthurDeSouzaMolina.tex
-LaTeX2e <2021-11-15>
+LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2021-11-22>
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/abntex2\abntex2.cls
 Document Class: abntex2 2018/11/24 v-1.9.7 abnTeX2
@@ -506,7 +508,7 @@ Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
 \BKM@id=\count319
 )) (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2021/11/08 3.66 The Babel package
+Package: babel 2021/11/29 3.67 The Babel package
 \babel@savecnt=\count320
 \U@D=\dimen187
 \l@unhyphenated=\language79
@@ -840,7 +842,7 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
 Package: relsize 2013/03/29 ver 4.1
 )
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.sty
-Package: microtype 2021/10/31 v3.0 Micro-typographical refinements (RS)
+Package: microtype 2021/12/10 v3.0b Micro-typographical refinements (RS)
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count356
@@ -848,32 +850,33 @@ Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \MT@toks=\toks43
 \MT@count=\count357
 \MT@tempbox=\box60
-\MT@leftmarginkern=\dimen269
-\MT@rightmarginkern=\dimen270
-LaTeX Info: Redefining \textls on input line 1114.
-\MT@outer@kern=\dimen271
-LaTeX Info: Redefining \textmicrotypecontext on input line 1700.
+LaTeX Info: Redefining \leftprotrusion on input line 1010.
+LaTeX Info: Redefining \rightprotrusion on input line 1018.
+LaTeX Info: Redefining \textls on input line 1173.
+\MT@outer@kern=\dimen269
+LaTeX Info: Redefining \textmicrotypecontext on input line 1759.
 \MT@listname@count=\count358
 Package srcltx Info: Expanded filename `microtype-pdftex.def' to `microtype-pdf
-tex.def.tex' on input line 2584.
+tex.def.tex' on input line 2682.
 
 :<+ microtype-pdftex.def.tex
 
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-pdf
 tex.def
-File: microtype-pdftex.def 2021/10/31 v3.0 Definitions specific to pdftex (RS)
-LaTeX Info: Redefining \lsstyle on input line 915.
-LaTeX Info: Redefining \lslig on input line 915.
+File: microtype-pdftex.def 2021/12/10 v3.0b Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 897.
+LaTeX Info: Redefining \lslig on input line 897.
 \MT@outer@space=\skip272
 )
 :<-
 Package microtype Info: Loading configuration file microtype.cfg.
 Package srcltx Info: Expanded filename `microtype.cfg' to `microtype.cfg.tex' o
-n input line 2608.
+n input line 2704.
 :<+ microtype.cfg.tex
 
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.cfg
-File: microtype.cfg 2021/10/31 v3.0 microtype main configuration file (RS)
+File: microtype.cfg 2021/12/10 v3.0b microtype main configuration file (RS)
 )
 :<-
 ) (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/braket\braket.sty)
@@ -885,8 +888,8 @@ y
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
 -common.tex
 \pgfutil@everybye=\toks44
-\pgfutil@tempdima=\dimen272
-\pgfutil@tempdimb=\dimen273
+\pgfutil@tempdima=\dimen270
+\pgfutil@tempdimb=\dimen271
 
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
 -common-lists.tex))
@@ -930,16 +933,16 @@ Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
 filtered.code.tex
 \pgfkeys@tmptoks=\toks47
 ))
-\pgf@x=\dimen274
-\pgf@y=\dimen275
-\pgf@xa=\dimen276
-\pgf@ya=\dimen277
-\pgf@xb=\dimen278
-\pgf@yb=\dimen279
-\pgf@xc=\dimen280
-\pgf@yc=\dimen281
-\pgf@xd=\dimen282
-\pgf@yd=\dimen283
+\pgf@x=\dimen272
+\pgf@y=\dimen273
+\pgf@xa=\dimen274
+\pgf@ya=\dimen275
+\pgf@xb=\dimen276
+\pgf@yb=\dimen277
+\pgf@xc=\dimen278
+\pgf@yc=\dimen279
+\pgf@xd=\dimen280
+\pgf@yd=\dimen281
 \w@pgf@writea=\write4
 \r@pgf@reada=\read4
 \c@pgf@counta=\count359
@@ -1004,7 +1007,7 @@ code.tex
 code.tex)
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
 r.code.tex
-\pgfmath@dimen=\dimen284
+\pgfmath@dimen=\dimen282
 \pgfmath@count=\count366
 \pgfmath@box=\box62
 \pgfmath@toks=\toks51
@@ -1038,32 +1041,32 @@ tex)
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 epoints.code.tex
 File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@picminx=\dimen285
-\pgf@picmaxx=\dimen286
-\pgf@picminy=\dimen287
-\pgf@picmaxy=\dimen288
-\pgf@pathminx=\dimen289
-\pgf@pathmaxx=\dimen290
-\pgf@pathminy=\dimen291
-\pgf@pathmaxy=\dimen292
-\pgf@xx=\dimen293
-\pgf@xy=\dimen294
-\pgf@yx=\dimen295
-\pgf@yy=\dimen296
-\pgf@zx=\dimen297
-\pgf@zy=\dimen298
+\pgf@picminx=\dimen283
+\pgf@picmaxx=\dimen284
+\pgf@picminy=\dimen285
+\pgf@picmaxy=\dimen286
+\pgf@pathminx=\dimen287
+\pgf@pathmaxx=\dimen288
+\pgf@pathminy=\dimen289
+\pgf@pathmaxy=\dimen290
+\pgf@xx=\dimen291
+\pgf@xy=\dimen292
+\pgf@yx=\dimen293
+\pgf@yy=\dimen294
+\pgf@zx=\dimen295
+\pgf@zy=\dimen296
 )
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 epathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@path@lastx=\dimen299
-\pgf@path@lasty=\dimen300
+\pgf@path@lastx=\dimen297
+\pgf@path@lasty=\dimen298
 )
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 epathusage.code.tex
 File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@shorten@end@additional=\dimen301
-\pgf@shorten@start@additional=\dimen302
+\pgf@shorten@end@additional=\dimen299
+\pgf@shorten@start@additional=\dimen300
 )
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 escopes.code.tex
@@ -1076,14 +1079,14 @@ File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 egraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgflinewidth=\dimen303
+\pgflinewidth=\dimen301
 )
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 etransformations.code.tex
 File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@pt@x=\dimen304
-\pgf@pt@y=\dimen305
-\pgf@pt@temp=\dimen306
+\pgf@pt@x=\dimen302
+\pgf@pt@y=\dimen303
+\pgf@pt@temp=\dimen304
 )
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 equick.code.tex
@@ -1100,12 +1103,12 @@ File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 earrows.code.tex
 File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfarrowsep=\dimen307
+\pgfarrowsep=\dimen305
 )
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 eshade.code.tex
 File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@max=\dimen308
+\pgf@max=\dimen306
 \pgf@sys@shading@range@num=\count369
 \pgf@shadingcount=\count370
 )
@@ -1148,8 +1151,8 @@ File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
 mp-version-0-65.sty
 Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@nodesepstart=\dimen309
-\pgf@nodesepend=\dimen310
+\pgf@nodesepstart=\dimen307
+\pgf@nodesepend=\dimen308
 )
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
 mp-version-1-18.sty
@@ -1188,8 +1191,8 @@ Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
 
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
 .tex)
-\pgffor@iter=\dimen311
-\pgffor@skip=\dimen312
+\pgffor@iter=\dimen309
+\pgffor@skip=\dimen310
 \pgffor@stack=\toks54
 \pgffor@toks=\toks55
 )
@@ -1208,16 +1211,16 @@ Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
 aryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@plot@mark@count=\count371
-\pgfplotmarksize=\dimen313
+\pgfplotmarksize=\dimen311
 )
-\tikz@lastx=\dimen314
-\tikz@lasty=\dimen315
-\tikz@lastxsaved=\dimen316
-\tikz@lastysaved=\dimen317
-\tikz@lastmovetox=\dimen318
-\tikz@lastmovetoy=\dimen319
-\tikzleveldistance=\dimen320
-\tikzsiblingdistance=\dimen321
+\tikz@lastx=\dimen312
+\tikz@lasty=\dimen313
+\tikz@lastxsaved=\dimen314
+\tikz@lastysaved=\dimen315
+\tikz@lastmovetox=\dimen316
+\tikz@lastmovetoy=\dimen317
+\tikzleveldistance=\dimen318
+\tikzsiblingdistance=\dimen319
 \tikz@figbox=\box68
 \tikz@figbox@bg=\box69
 \tikz@tempbox=\box70
@@ -1259,7 +1262,7 @@ File: tikzlibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
 aryarrows.code.tex
 File: pgflibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\arrowsize=\dimen322
+\arrowsize=\dimen320
 )))
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/hobby\tikzlibraryhobby.
 code.tex
@@ -1275,7 +1278,7 @@ Package: expl3 2021-11-22 L3 programming layer (loader)
 
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
-File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2021-12-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count380
 \l__pdf_internal_box=\box72
 ))
@@ -1395,13 +1398,13 @@ Package caption Info: End \AtBeginDocument code.
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count394
-\scratchdimen=\dimen323
+\scratchdimen=\dimen321
 \scratchbox=\box74
 \nofMPsegments=\count395
 \nofMParguments=\count396
 \everyMPshowfont=\toks56
 \MPscratchCnt=\count397
-\MPscratchDim=\dimen324
+\MPscratchDim=\dimen322
 \MPnumerator=\count398
 \makeMPintoPDFobject=\count399
 \everyMPtoPDFconversion=\toks57
@@ -1410,10 +1413,7 @@ LaTeX Info: Redefining \microtypecontext on input line 133.
 Package microtype Info: Applying patch `item' on input line 133.
 Package microtype Info: Applying patch `toc' on input line 133.
 Package microtype Info: Applying patch `eqnum' on input line 133.
-
-
-Package microtype Warning: Unable to apply patch `footnote' on input line 133.
-
+Package microtype Info: Applying patch `footnote' on input line 133.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1424,7 +1424,7 @@ LaTeX Info: Redefining \showhyphens on input line 133.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
-(C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
+ (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
@@ -1433,23 +1433,18 @@ File: figuras/logo.pdf Graphic file (type pdf)
 <use figuras/logo.pdf>
 Package pdftex.def Info: figuras/logo.pdf  used on input line 140.
 (pdftex.def)             Requested size: 421.10086pt x 81.26265pt.
-
 [1
 
-{C:/Users/arthu/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
-
-pdfTeX warning: pdflatex.exe: pop empty color page stack 0
- <./figuras/logo.pdf>]
+{C:/Users/arthu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./figuras/lo
+go.pdf>]
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
 07.
-
-(C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
+ (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
 207.
-
-(C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
+ (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
@@ -1516,25 +1511,10 @@ Package babel Info: Importing basic data for english
 (babel)             from babel-en.ini. Reported on input line 11.
 ) [6
 
-] (ArthurDeSouzaMolina.lof
-Overfull \vbox (26.37845pt too high) detected at line 2
- []
+] (ArthurDeSouzaMolina.lof) [7
 
-
-Overfull \vbox (8.38399pt too high) detected at line 3
- []
-
-
-Overfull \vbox (26.37845pt too high) detected at line 4
- []
-
-
-Overfull \vbox (26.37845pt too high) detected at line 5
- []
-
-) [7
-
-] (ArthurDeSouzaMolina.toc) [8
+] (ArthurDeSouzaMolina.toc)
+[8
 
 ]
 Package srcltx Info: Expanded filename `Textos/Introducao.tex' to `Textos/Intro
@@ -1569,61 +1549,67 @@ Package srcltx Info: Expanded filename `Textos/Resultados.tex' to `Textos/Resul
 tados.tex' on input line 346.
 :<+ Textos/Resultados.tex
 (Textos/Resultados.tex [10]
-<../Produção do Relatório/Trabalho de ic de Arthur/figuras/fig1.png, id=189,
- 874.76813pt x 403.5075pt>
-File: ../Produção do Relatório/Trabalho de ic de Arthur/figuras/fig1.png Gra
-phic file (type png)
-<use ../Produção do Relatório/Trabalho de ic de Arthur/figuras/fig1.png>
-Package pdftex.def Info: ../Produção do Relatório/Trabalho de ic de Arthur/f
-iguras/fig1.png  used on input line 12.
+<figuras/fig1.png, id=199, 874.76813pt x 403.5075pt>
+File: figuras/fig1.png Graphic file (type png)
+<use figuras/fig1.png>
+Package pdftex.def Info: figuras/fig1.png  used on input line 14.
 (pdftex.def)             Requested size: 318.49861pt x 146.91266pt.
  [11
 
- <../Produção do Relatório/Trabalho de ic de Arthur/figuras/fig1.png>]
-<../Produção do Relatório/Trabalho de ic de Arthur/figuras/fig2.png, id=198,
- 812.28468pt x 391.4625pt>
-File: ../Produção do Relatório/Trabalho de ic de Arthur/figuras/fig2.png Gra
-phic file (type png)
-<use ../Produção do Relatório/Trabalho de ic de Arthur/figuras/fig2.png>
-Package pdftex.def Info: ../Produção do Relatório/Trabalho de ic de Arthur/f
-iguras/fig2.png  used on input line 23.
+ <./figuras/fig1.png>]
+<figuras/fig2.png, id=208, 812.28468pt x 391.4625pt>
+File: figuras/fig2.png Graphic file (type png)
+<use figuras/fig2.png>
+Package pdftex.def Info: figuras/fig2.png  used on input line 28.
 (pdftex.def)             Requested size: 318.49861pt x 153.48808pt.
-<../Produção do Relatório/Trabalho de ic de Arthur/figuras/fig3.png, id=199,
- 825.83531pt x 395.97937pt>
-File: ../Produção do Relatório/Trabalho de ic de Arthur/figuras/fig3.png Gra
-phic file (type png)
-<use ../Produção do Relatório/Trabalho de ic de Arthur/figuras/fig3.png>
-Package pdftex.def Info: ../Produção do Relatório/Trabalho de ic de Arthur/f
-iguras/fig3.png  used on input line 34.
+<figuras/fig3.png, id=209, 825.83531pt x 395.97937pt>
+File: figuras/fig3.png Graphic file (type png)
+<use figuras/fig3.png>
+Package pdftex.def Info: figuras/fig3.png  used on input line 43.
 (pdftex.def)             Requested size: 318.49861pt x 152.71536pt.
-<../Produção do Relatório/Trabalho de ic de Arthur/figuras/fig4.png, id=200,
- 792.71156pt x 385.44pt>
-File: ../Produção do Relatório/Trabalho de ic de Arthur/figuras/fig4.png Gra
-phic file (type png)
-<use ../Produção do Relatório/Trabalho de ic de Arthur/figuras/fig4.png>
-Package pdftex.def Info: ../Produção do Relatório/Trabalho de ic de Arthur/f
-iguras/fig4.png  used on input line 43.
+<figuras/fig4.png, id=210, 792.71156pt x 385.44pt>
+File: figuras/fig4.png Graphic file (type png)
+<use figuras/fig4.png>
+Package pdftex.def Info: figuras/fig4.png  used on input line 53.
 (pdftex.def)             Requested size: 318.49861pt x 154.86726pt.
- [12 <../Produção do Relatório/Trabalho de ic de Arthur/figuras/fig2.png> <.
-./Produção do Relatório/Trabalho de ic de Arthur/figuras/fig3.png>])
+ [12 <./figuras/fig2.png> <./figuras/fig3.png>]
+<figuras/fig5.png, id=218, 770.12718pt x 396.7322pt>
+File: figuras/fig5.png Graphic file (type png)
+<use figuras/fig5.png>
+Package pdftex.def Info: figuras/fig5.png  used on input line 69.
+(pdftex.def)             Requested size: 318.49861pt x 164.07175pt.
+<figuras/fig6.png, id=219, 774.64406pt x 377.91188pt>
+File: figuras/fig6.png Graphic file (type png)
+<use figuras/fig6.png>
+Package pdftex.def Info: figuras/fig6.png  used on input line 78.
+(pdftex.def)             Requested size: 318.49861pt x 155.38312pt.
+ [13 <./figuras/fig4.png> <./figuras/fig5.png>]
+<figuras/fig7.png, id=227, 843.15pt x 405.01312pt>
+File: figuras/fig7.png Graphic file (type png)
+<use figuras/fig7.png>
+Package pdftex.def Info: figuras/fig7.png  used on input line 87.
+(pdftex.def)             Requested size: 318.49861pt x 152.99193pt.
+<figuras/fig8.png, id=228, 797.98125pt x 393.72093pt>
+File: figuras/fig8.png Graphic file (type png)
+<use figuras/fig8.png>
+Package pdftex.def Info: figuras/fig8.png  used on input line 96.
+(pdftex.def)             Requested size: 318.49861pt x 157.14314pt.
+)
 :<-
 Package srcltx Info: Expanded filename `Textos/Conclusao.tex' to `Textos/Conclu
 sao.tex' on input line 347.
 :<+ Textos/Conclusao.tex
-(Textos/Conclusao.tex [13 <../Produção do Relatório/Trabalho de ic de Arthur
-/figuras/fig4.png>])
+(Textos/Conclusao.tex [14 <./figuras/fig6.png> <./figuras/fig7.png> <./figuras/
+fig8.png>] [15])
 :<-
 :<+ ArthurDeSouzaMolina.bbl
-(ArthurDeSouzaMolina.bbl [14
+(ArthurDeSouzaMolina.bbl [16
 
 ]
 bibitemlist
-
-LaTeX Warning: Empty `thebibliography' environment on input line 8.
-
 )
 :<-
-[15
+[17
 
 ]
 \tf@lof=\write5
@@ -1634,13 +1620,13 @@ LaTeX Warning: Empty `thebibliography' environment on input line 8.
 
  (ArthurDeSouzaMolina.aux) ) 
 Here is how much of TeX's memory you used:
- 32183 strings out of 478681
- 595062 string characters out of 2846534
- 926876 words of memory out of 3000000
- 49418 multiletter control sequences out of 15000+600000
- 478788 words of font info for 165 fonts, out of 8000000 for 9000
+ 32270 strings out of 478659
+ 594095 string characters out of 2845919
+ 928933 words of memory out of 3000000
+ 49481 multiletter control sequences out of 15000+600000
+ 479383 words of font info for 170 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,13n,106p,1335b,538s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 85i,13n,106p,1335b,540s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts
 /enc/dvips/lm/lm-rm.enc}{C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/enc
 /dvips/base/8r.enc}{C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/enc/dvip
@@ -1666,9 +1652,9 @@ e1/public/lm/lmr9.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/lm/lmsy10.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/lm/lmsy9.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1/
 urw/palatino/uplr8a.pfb>
-Output written on ArthurDeSouzaMolina.pdf (23 pages, 701007 bytes).
+Output written on ArthurDeSouzaMolina.pdf (25 pages, 947095 bytes).
 PDF statistics:
- 369 PDF objects out of 1000 (max. 8388607)
- 96 named destinations out of 1000 (max. 500000)
- 40598 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 403 PDF objects out of 1000 (max. 8388607)
+ 108 named destinations out of 1000 (max. 500000)
+ 40618 words of extra memory for PDF output out of 42996 (max. 10000000)
 

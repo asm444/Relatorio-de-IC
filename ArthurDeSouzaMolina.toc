@@ -10,9 +10,9 @@
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \contentsline {chapter}{Análise dos códigos}{9}{chapter*.17}%
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Resultados}{11}{chapter*.19}%
+\contentsline {chapter}{Resultados}{11}{chapter*.20}%
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Conclusão}{14}{chapter*.25}%
+\contentsline {chapter}{Conclusão}{16}{chapter*.32}%
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{15}{section*.28}%
+\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{17}{section*.35}%
