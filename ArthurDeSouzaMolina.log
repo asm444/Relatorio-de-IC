@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2021.12.20)  20 DEC 2021 08:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2021.12.20)  20 DEC 2021 08:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1620,11 +1620,11 @@ bibitemlist
 
  (ArthurDeSouzaMolina.aux) ) 
 Here is how much of TeX's memory you used:
- 32270 strings out of 478659
- 594095 string characters out of 2845919
+ 32272 strings out of 478659
+ 594119 string characters out of 2845919
  928933 words of memory out of 3000000
  49481 multiletter control sequences out of 15000+600000
- 479383 words of font info for 170 fonts, out of 8000000 for 9000
+ 479510 words of font info for 171 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  85i,13n,106p,1335b,540s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts
@@ -1652,9 +1652,9 @@ e1/public/lm/lmr9.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/lm/lmsy10.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/lm/lmsy9.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1/
 urw/palatino/uplr8a.pfb>
-Output written on ArthurDeSouzaMolina.pdf (25 pages, 947095 bytes).
+Output written on ArthurDeSouzaMolina.pdf (25 pages, 948352 bytes).
 PDF statistics:
- 403 PDF objects out of 1000 (max. 8388607)
+ 404 PDF objects out of 1000 (max. 8388607)
  108 named destinations out of 1000 (max. 500000)
  40618 words of extra memory for PDF output out of 42996 (max. 10000000)
 
